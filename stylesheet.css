@@ -1,4 +1,4 @@
-html, body { height: 100%; width: 100%; margin: 0; background-image: linear-gradient(#e3e0ff, #ec60ff); }
+html, body { height: 100%; width: 100%; margin: 0; background-image: linear-gradient(#eff5ff, #ec60ff); }
 .calculator{
   display: flex;
   justify-content: center;
@@ -31,10 +31,10 @@ html, body { height: 100%; width: 100%; margin: 0; background-image: linear-grad
   float: left;
   height: 25%;
   width: 33.33%;
-  background-color:#c5c5f9;
+  background-color: #c5c5f9;
   font-family: sans-serif;
   border:none;
-    box-shadow:inset 0px 0px 0px 1px #9f9ffc;
+  box-shadow:inset 0px 0px 0px 1px #9f9ffc;
 }
 
 .numbers button:hover{
