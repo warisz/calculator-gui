@@ -1,0 +1,56 @@
+html, body { height: 100%; width: 100%; margin: 0; }
+.calculator{
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.output{
+  width: 390px;
+  height: 110px;
+  background-color: #efeff7;
+  position: absolute;
+  top: 100px;
+  border: 0.1px solid grey;
+}
+
+.numbers, .operators{
+  height: 350px;
+  position: relative;
+  top: 210px;
+}
+.numbers{
+  width: 300px;
+}
+
+.numbers button{
+  float: left;
+  height: 25%;
+  width: 33.33%;
+  background-color:#c5c5f9;
+  font-family: sans-serif;
+  border:none;
+    box-shadow:inset 0px 0px 0px 1px #9f9ffc;
+}
+
+.numbers button:hover{
+  font-size: 105%;
+  background-color:#dbdbff;
+}
+
+.operators{
+  width: 90px;
+}
+
+.operators button{
+  height: 20%;
+  width: 100%;
+  background-color:#9f9ffc;
+  font-family: sans-serif;
+  border:none;
+}
+
+.operators button:hover{
+  font-size: 105%;
+  background-color:#7171e2;
+}
